@@ -1,0 +1,241 @@
+body{
+    background-color: aqua;
+}
+
+.wheel1{
+    border: 10px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 180px;
+    left: 440px;
+    animation-name: sipsa;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image:  linear-gradient(red,yellow,blue);
+    z-index: 6;
+}
+.wheel2{
+    border: 10px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    animation-name: pedal;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: linear-gradient(red,yellow,blue);
+    z-index: 6;
+}
+.rama{
+    margin-top: 110px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border: 10px solid;
+    margin-left: 190px;
+    transform: skew(-45deg);
+    z-index: 1;
+}
+.rul{
+    border: 4px solid;
+    transform: skew(10deg);
+    width:0px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    z-index: 6;
+    background-color: black;
+}
+.pedal{
+    position: absolute;
+    top: 220px;
+    left: 280px;
+    width: 80px;
+    height: 80px;
+    border: 10px solid;
+    border-radius: 100%;
+    z-index: 2;
+    background-color: brown;
+    animation-name: pedal;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+.pedal1{
+    position: absolute;
+    top: 40px;
+    left: px;
+    width: 35px;
+    heigh: ;
+    border: 4px solid;
+    background-color: black;
+    transform: skew(0deg);
+    z-index: 3;
+}
+@keyframes pedal{
+    from{
+        transform: rotate(-360deg);
+    }
+}
+.egar{
+    border: 3px solid;
+    transform: skew(20deg);
+    width:0px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    background-color: black;
+    z-index: 2;
+}
+.egar1{
+    border: 3px solid;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 43px;
+    left: 240px;
+    transform: skew(20deg);
+}
+.rul1{
+    border: 1px solid;
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 43px;
+    left: 450px;
+    z-index: 6;
+}
+.sipsa{
+    border: 3px solid;
+    width: 150px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    
+}
+.sipsa1{
+    border: 3px solid;
+    width: 10px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: -1px;
+    left: 70px;
+}
+@keyframes sipsa {
+    from{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes sipsa {
+    from{
+        transform: rotate(-360deg);
+    }
+}
+.road{
+    position: relative;
+    border: 5px solid grey;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+}
+.tosh1{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    z-index: 0;
+}
+.tosh2{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 0;
+}
+.tosh3{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    z-index: 0;
+}
+.tosh4{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    z-index: 0;
+}
+.tosh5{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    z-index: 0;
+}
+.tosh6{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    z-index: 0;
+}
+.tosh{
+    animation-name: tosh;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes tosh {
+    from{
+        transform: translate(-500px, 0px) ;
+    }
+
+}
+
+.btn1{
+    position: absolute;
+    top: 600px;
+    z-index: 9;
+}
+.btn2{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    z-index: 9;
+}
